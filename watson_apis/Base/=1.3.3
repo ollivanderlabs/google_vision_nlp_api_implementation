@@ -1,0 +1,36 @@
+Collecting watson-developer-cloud
+  Using cached https://files.pythonhosted.org/packages/4f/b5/d2242076082287db54ba04b435cf288b0fd03e767faf34df70d809cec404/watson-developer-cloud-1.3.3.tar.gz
+Requirement already satisfied: requests<3.0,>=2.0 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from watson-developer-cloud)
+Requirement already satisfied: python_dateutil>=2.5.3 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from watson-developer-cloud)
+Collecting autobahn>=0.10.9 (from watson-developer-cloud)
+  Using cached https://files.pythonhosted.org/packages/ec/80/b1172311d09f7b1b27f9260e21fc4374c4b72ad1ad1c87862e8f364d8b67/autobahn-18.4.1-py2.py3-none-any.whl
+Requirement already satisfied: Twisted>=13.2.0 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from watson-developer-cloud)
+Requirement already satisfied: pyOpenSSL>=16.2.0 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from watson-developer-cloud)
+Requirement already satisfied: service-identity>=17.0.0 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from watson-developer-cloud)
+Requirement already satisfied: idna<2.7,>=2.5 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from requests<3.0,>=2.0->watson-developer-cloud)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from requests<3.0,>=2.0->watson-developer-cloud)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from requests<3.0,>=2.0->watson-developer-cloud)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from requests<3.0,>=2.0->watson-developer-cloud)
+Requirement already satisfied: six>=1.5 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from python_dateutil>=2.5.3->watson-developer-cloud)
+Collecting txaio>=2.10.0 (from autobahn>=0.10.9->watson-developer-cloud)
+  Using cached https://files.pythonhosted.org/packages/dc/2e/c8a877b0a5c2798fa93ebcc1465a72a68c089e5f8b0a852ca335751dcc5a/txaio-2.10.0-py2.py3-none-any.whl
+Requirement already satisfied: hyperlink>=17.1.1 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from Twisted>=13.2.0->watson-developer-cloud)
+Requirement already satisfied: Automat>=0.3.0 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from Twisted>=13.2.0->watson-developer-cloud)
+Requirement already satisfied: incremental>=16.10.1 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from Twisted>=13.2.0->watson-developer-cloud)
+Requirement already satisfied: constantly>=15.1 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from Twisted>=13.2.0->watson-developer-cloud)
+Requirement already satisfied: zope.interface>=4.0.2 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from Twisted>=13.2.0->watson-developer-cloud)
+Requirement already satisfied: cryptography>=2.1.4 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from pyOpenSSL>=16.2.0->watson-developer-cloud)
+Requirement already satisfied: pyasn1 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from service-identity>=17.0.0->watson-developer-cloud)
+Requirement already satisfied: pyasn1-modules in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from service-identity>=17.0.0->watson-developer-cloud)
+Requirement already satisfied: attrs in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from service-identity>=17.0.0->watson-developer-cloud)
+Requirement already satisfied: setuptools in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from zope.interface>=4.0.2->Twisted>=13.2.0->watson-developer-cloud)
+Requirement already satisfied: cffi>=1.7; platform_python_implementation != "PyPy" in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from cryptography>=2.1.4->pyOpenSSL>=16.2.0->watson-developer-cloud)
+Requirement already satisfied: asn1crypto>=0.21.0 in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from cryptography>=2.1.4->pyOpenSSL>=16.2.0->watson-developer-cloud)
+Requirement already satisfied: pycparser in /Users/abdul/Documents/IVirEnv/lib/python3.6/site-packages (from cffi>=1.7; platform_python_implementation != "PyPy"->cryptography>=2.1.4->pyOpenSSL>=16.2.0->watson-developer-cloud)
+Building wheels for collected packages: watson-developer-cloud
+  Running setup.py bdist_wheel for watson-developer-cloud: started
+  Running setup.py bdist_wheel for watson-developer-cloud: finished with status 'done'
+  Stored in directory: /Users/abdul/Library/Caches/pip/wheels/7a/45/e3/4124673ac1081eefdae4e6a220e52ce84996fc808044d85c28
+Successfully built watson-developer-cloud
+Installing collected packages: txaio, autobahn, watson-developer-cloud
+Successfully installed autobahn-18.4.1 txaio-2.10.0 watson-developer-cloud-1.3.3
